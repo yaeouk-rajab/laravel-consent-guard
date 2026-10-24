@@ -8,7 +8,7 @@ cloned and run.
 
 ![Pest suite: audit-log hash chain, role-level privilege separation, concurrency, fail-closed consent](docs/screenshots/tests.png)
 
-_Real output from a local run of the Pest suite (42 tests, 103 assertions) against PostgreSQL 16, including the audit-log tests that rely on a real restricted role and genuinely concurrent writers (PHP 8.3). Static analysis is not shown: Larastan could not be installed in this sandbox, so CI is the check for that step._
+_Real output from a local run of the Pest suite (42 tests, 103 assertions) against PostgreSQL 16, including the audit-log tests that rely on a real restricted role and genuinely concurrent writers (PHP 8.3). Static analysis is not part of the capture: Larastan runs in CI, in the "Static analysis" job._
 
 ## Why a package, and why Laravel again
 
