@@ -4,6 +4,12 @@ Eloquent-native consent tracking and tamper-evident audit logging, packaged
 as a reusable Laravel dependency — installed with `composer require`, not
 cloned and run.
 
+## Screenshots
+
+![Pest suite: audit-log hash chain, role-level privilege separation, concurrency, fail-closed consent](docs/screenshots/tests.png)
+
+_Real output from a local run of the Pest suite (42 tests, 103 assertions) against PostgreSQL 16, including the audit-log tests that rely on a real restricted role and genuinely concurrent writers (PHP 8.3). Static analysis is not part of the capture: Larastan runs in CI, in the "Static analysis" job._
+
 ## Why a package, and why Laravel again
 
 This portfolio already has a Laravel *application* — [privacy-forge](https://github.com/arb-rajab/privacy-forge),
