@@ -4,6 +4,12 @@ Eloquent-native consent tracking and tamper-evident audit logging, packaged
 as a reusable Laravel dependency — installed with `composer require`, not
 cloned and run.
 
+## Screenshots
+
+![Artisan commands and audit chain verification](docs/screenshots/cli.png)
+
+_These images are illustrative mockups rendered from this repository's documented screens and API shapes, not captures of a running build. Regenerate or replace them with real captures once the app is running._
+
 ## Why a package, and why Laravel again
 
 This portfolio already has a Laravel *application* — [privacy-forge](https://github.com/arb-rajab/privacy-forge),
