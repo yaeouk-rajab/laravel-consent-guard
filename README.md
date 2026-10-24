@@ -6,9 +6,9 @@ cloned and run.
 
 ## Screenshots
 
-![Artisan commands and audit chain verification](docs/screenshots/cli.png)
+![Pest suite: audit-log hash chain, role-level privilege separation, concurrency, fail-closed consent](docs/screenshots/tests.png)
 
-_These images are illustrative mockups rendered from this repository's documented screens and API shapes, not captures of a running build. Regenerate or replace them with real captures once the app is running._
+_Real output from a local run of the Pest suite (42 tests, 103 assertions) against PostgreSQL 16, including the audit-log tests that rely on a real restricted role and genuinely concurrent writers (PHP 8.3). Static analysis is not shown: Larastan could not be installed in this sandbox, so CI is the check for that step._
 
 ## Why a package, and why Laravel again
 
